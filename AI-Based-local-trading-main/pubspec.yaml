@@ -1,0 +1,47 @@
+name: ai_based_local_trading
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  connectivity_plus: ^6.0.0
+
+  # 🌍 Localization
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+
+  # 🎨 UI
+  smooth_page_indicator: ^1.2.1
+
+  # 🔥 Firebase
+  firebase_core: ^4.3.0
+  firebase_auth: ^6.1.3
+  cloud_firestore: ^6.0.0
+  firebase_storage: ^13.0.0   # 📷 store product images
+
+  # 📷 Image picker (camera + gallery)
+  image_picker: ^1.1.2
+
+  # 🎤 Voice to text
+  speech_to_text: ^7.0.0
+
+  # 📍 Location (for local trading)
+  geolocator: ^13.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
